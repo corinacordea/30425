@@ -11,6 +11,7 @@ public class FibonaciiEvenSum {
 		number = scanner.nextInt(); 
 		
 		FibonaciiClass fibo = new FibonaciiClass();
-		System.out.println(fibo.ThirdFibo(number));
+		System.out.println(fibo.thirdFibo(number));
+		scanner.close();
 	}
 }

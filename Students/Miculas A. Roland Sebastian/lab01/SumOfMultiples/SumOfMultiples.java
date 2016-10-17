@@ -11,7 +11,7 @@ public class SumOfMultiples {
 		number = scanner.nextInt(); // getting the user input
 		for(int index = 0 ; index< number ;index++){
 			if(index % 3 == 0 || index % 5 == 0 ){ // checking if the number is divisible with 3 or 5 
-				sum = sum + index;  // adding the number to the sum
+				sum += index;  // adding the number to the sum
 			}
 		}
 		System.out.println(sum); // printing out the sum
