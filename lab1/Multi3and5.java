@@ -1,6 +1,7 @@
-package test;
+package lab1;
 
-public class Idk {
+public class Multi3and5 {
+
 	public static void main(String[] args) {
 		int sum = 0;
 		int aux = 0;
