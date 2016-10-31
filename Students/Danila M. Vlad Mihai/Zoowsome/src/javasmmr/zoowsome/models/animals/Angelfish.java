@@ -13,5 +13,4 @@ public class Angelfish extends Aquatic {
 		this.setAvgSwimDepth(67);
 		this.setWaterType(Enum.SALTWATER);
 	}
-
 }
