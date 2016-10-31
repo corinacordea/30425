@@ -13,5 +13,4 @@ public class Blackbird extends Bird {
 			this.setMigrates(false);
 			this.setAvgFlightAltitude(43);
 		}
-
 }
