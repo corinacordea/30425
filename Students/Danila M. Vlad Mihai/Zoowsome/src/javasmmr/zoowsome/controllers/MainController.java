@@ -15,6 +15,4 @@ public class MainController {
 		System.out.printf("We have an animal with %d legs!\n", a1.getNrOfLegs());
 		System.out.println("We have an animal that is called " + a2.getName());
 	}
-	
-
 }
