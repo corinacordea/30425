@@ -16,5 +16,4 @@ public class AquaticFactory extends SpeciesFactory {
 			throw new Exception("Invalid animal exception!");
 		}
 	}
-
 }
