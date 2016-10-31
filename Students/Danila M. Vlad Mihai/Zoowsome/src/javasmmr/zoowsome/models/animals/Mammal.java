@@ -18,5 +18,4 @@ public abstract class Mammal extends Animal {
 		 this.percBodyHair = percBodyHair;
 	 }
 
-
 }
