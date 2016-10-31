@@ -13,5 +13,4 @@ public class Brood extends Bird{
 		this.setMigrates(false);
 		this.setAvgFlightAltitude(51);
 	}
-
 }
