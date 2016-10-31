@@ -4,7 +4,6 @@ import javasmmr.zoowsome.services.factories.Constants;
 import javasmmr.zoowsome.models.animals.*;
 import javasmmr.zoowsome.services.factories.*;
 
-
 public class MainController {
 	public static void main(String[] args) throws Exception {
 		AnimalFactory abstractFactory = new AnimalFactory();
