@@ -1,5 +1,5 @@
 package javasmmr.zoowsome.services.factories.employeeFactories;
-import javasmmr.zoowsome.models.employees.*;
+import javasmmr.zoowsome.models.employees.Employee;
 
 public abstract class EmployeeFactory {
 

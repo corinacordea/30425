@@ -1,4 +1,5 @@
 package javasmmr.zoowsome.services.factories.employeeFactories;
+
 import javasmmr.zoowsome.services.factories.*;
 import javasmmr.zoowsome.models.employees.*;
 
@@ -11,3 +12,4 @@ public class CareTakerFactory extends EmployeeFactory{
 			throw new Exception("Invalid employee specification");
 	}
 }
+
