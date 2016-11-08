@@ -17,4 +17,13 @@ public class Spider extends Insect{
 		this(false, true, 8, "Spider" + counter, 1.23, 0.5);
 		++counter;
 	}
+	
+	public double getPredisposition(){
+		boolean isTimeBetween11And6 = timeBetween11pmAnd6am();
+		
+		if(isTimeBetween11And6) 
+			return 0.2;
+
+		return 0;
+	}
 }
