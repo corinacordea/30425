@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class Cat extends Mammal {
-	public Cat(String Name, int nrOfLegs, float normalBodyTemp, float percBodyHair ){
-		this.setName(Name);
+	public Cat(String name, int nrOfLegs, float normalBodyTemp, float percBodyHair ){
+		this.setName(name);
 		this.setNrOfLegs(nrOfLegs);
 		this.setNormalBodyTemp(normalBodyTemp);
 		this.setPercBodyHair(percBodyHair);

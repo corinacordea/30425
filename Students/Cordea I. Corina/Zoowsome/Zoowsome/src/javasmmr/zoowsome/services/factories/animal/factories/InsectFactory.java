@@ -1,5 +1,6 @@
-package javasmmr.zoowsome.services.factories;
+package javasmmr.zoowsome.services.factories.animal.factories;
 import javasmmr.zoowsome.models.animals.*;
+import javasmmr.zoowsome.services.factories.Constants;
 
 public class InsectFactory extends SpeciesFactory{
 	public Animal getAnimal( String type ) throws Exception {

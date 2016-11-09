@@ -1,4 +1,4 @@
-package javasmmr.zoowsome.services.factories;
+package javasmmr.zoowsome.services.factories.animal.factories;
 import javasmmr.zoowsome.models.animals.*;
 
 public abstract class SpeciesFactory {

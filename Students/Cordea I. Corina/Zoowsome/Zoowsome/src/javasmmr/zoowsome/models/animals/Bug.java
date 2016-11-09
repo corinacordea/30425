@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class Bug extends Insect {
-	public Bug(String Name, int nrOfLegs, boolean canFly, boolean isDangerous ){
-		this.setName(Name);
+	public Bug(String name, int nrOfLegs, boolean canFly, boolean isDangerous ){
+		this.setName(name);
 		this.setNrOfLegs(nrOfLegs);
 		this.setCanFly(canFly);
 		this.setIsDangerous(isDangerous);

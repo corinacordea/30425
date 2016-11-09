@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class Hawk extends Bird {
-	public Hawk(String Name, int nrOfLegs, boolean migrates, int avgFlightAltitude ){
-		this.setName(Name);
+	public Hawk(String name, int nrOfLegs, boolean migrates, int avgFlightAltitude ){
+		this.setName(name);
 		this.setNrOfLegs(nrOfLegs);
 		this.setMigrates(migrates);
 		this.setAvgFlightAltitude(avgFlightAltitude);

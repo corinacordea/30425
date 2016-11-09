@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class BlackSnake extends Reptile{
-	public BlackSnake(String Name, int nrOfLegs, boolean laysEggs ){
-		this.setName(Name);
+	public BlackSnake(String name, int nrOfLegs, boolean laysEggs ){
+		this.setName(name);
 		this.setNrOfLegs(nrOfLegs);
 		this.setLaysEggs(laysEggs);
 	}
