@@ -1,9 +1,10 @@
-package javasmmr.zoowsome.services.factories;
+package javasmmr.zoowsome.services.factories.animalFactories;
+
+import javasmmr.zoowsome.services.factories.Constants;
 
 public class AnimalFactory {
 
-	public SpeciesFactory getSpeciesFactory(String type) 
-	{
+	public SpeciesFactory getSpeciesFactory(String type) throws Exception {
 		if (Constants.Species.MAMMALS.equals(type))
 		{
 			return new MammalFactory();
@@ -16,12 +17,10 @@ public class AnimalFactory {
 		{
 			return new BirdFactory();
 		} 
-		else if (Constants.Species.INSECTS.equals(type))
-		{
+		else if (Constants.Species.INSECTS.equals(type)){
 			return new InsectFactory();
 		}
-		else if (Constants.Species.AQUATICS.equals(type)) 
-		{
+		else if (Constants.Species.AQUATICS.equals(type)) {
 			return new AquaticFactory();
 		}
 		else

@@ -1,10 +1,10 @@
-package javasmmr.zoowsome.services.factories;
+package javasmmr.zoowsome.services.factories.animalFactories;
 import javasmmr.zoowsome.models.animals.*;
+import javasmmr.zoowsome.services.factories.Constants;
 
 public class BirdFactory extends SpeciesFactory{
 
-	public Animal getAnimal(String type) 
-	{
+	public Animal getAnimal(String type) throws Exception{
 		if(Constants.Animals.Birds.SWAN.equals(type))
 		{
 			return new Swan();

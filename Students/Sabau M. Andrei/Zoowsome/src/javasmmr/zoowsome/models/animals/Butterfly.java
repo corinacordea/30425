@@ -2,14 +2,19 @@ package javasmmr.zoowsome.models.animals;
 
 public class Butterfly extends Insect{
 
-	public Butterfly(boolean canFly, boolean isDangerous)
-	{
-		this.canFly = canFly;
-		this.isDangerous = isDangerous;
-	}
+	private static int counter = 0;
 	
-	public Butterfly()
-	{
-		this(true, false);
+	public Butterfly(boolean canFly, boolean isDangerous, int nrOfLegs, String name, double maintenanceCost, double dangerPerc){
+		setCanFly(canFly);
+		setIsDangerous(isDangerous);
+		setNrOfLegs(nrOfLegs);
+		setName(name);
+		setMaintenanceCost(maintenanceCost);
+		setDangerPerc(dangerPerc);
+		}
+	
+	public Butterfly(){
+		this(true, false, 6, "Butterfly" + counter, 0.1, 0);
+		++counter;
 	}
 }
