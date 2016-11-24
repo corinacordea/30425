@@ -1,7 +1,6 @@
 package javasmmr.zoowsome.services.factories.animal.factories;
 
 import javasmmr.zoowsome.services.factories.Constants;
-import javasmmr.zoowsome.services.factories.Constants.Species;
 
 public class AnimalFactory {
 	public SpeciesFactory getSpeciesFactory(String type) throws Exception {

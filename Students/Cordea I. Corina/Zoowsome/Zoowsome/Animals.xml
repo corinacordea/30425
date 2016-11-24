@@ -1,0 +1,97 @@
+<?xml version="1.0"?><content>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Viper</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>0.6</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>Viper</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>BlackSnake</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>0.5</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>BlackSnake</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Viper</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>0.6</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>Viper</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Salmon</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<avgSwimDepth>15</avgSwimDepth>
+	<waterType>FRESHWATER</waterType>
+	<DISCRIMINANT>Crap</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Ant</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>Ant</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Tiger</name>
+	<maintenanceCost>4.5</maintenanceCost>
+	<dangerPerc>0.8</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>37.5</normalBodyTemp>
+	<percBodyHair>92.5</percBodyHair>
+	<DISCRIMINANT>Tiger</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Lizard</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>0.3</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>Lizard </DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Bee</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>0.2</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>Ant</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Lizard</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>0.3</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>Lizard </DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Cat</name>
+	<maintenanceCost>5.0</maintenanceCost>
+	<dangerPerc>0.1</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>39.7</normalBodyTemp>
+	<percBodyHair>94.5</percBodyHair>
+	<DISCRIMINANT>Cat</DISCRIMINANT>
+</ANIMAL>
+</content>
